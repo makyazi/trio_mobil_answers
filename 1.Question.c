@@ -18,7 +18,7 @@ for(int i=0;i<x;i++)
    printf("dizinin %d. elemanini giriniz:",i+1);
    scanf("%d",(ptr+i));
 }
-max1=array[0];
+
 printf("array[]={");
 for( i=0;i<x;i++)
 {
