@@ -1,0 +1,21 @@
+int sum_fonk(int a,int b,int x)
+{
+   int sum=0;
+   int temp;
+    if(a>b)
+    {
+       temp=b; 
+       b=a;
+       a=temp;
+    }
+    for(int i=a;i<=b;i++)
+    {
+    
+        if(i%x==0)
+        {
+            sum+=i;
+        }
+    }
+    return sum;
+    
+}
